@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 align="center">Latihan Formulir</h1>
+    <form action="#">
+        <fieldset>
+            <legend align="center">Input Data</legend>
+            <label for="name">Nama :</label>
+            <input type="text" placeholder="Masukkan Nama Lengkap"><br><br>
+            <label for="pass">Password :</label>
+            <input type="password"><br><br>
+            <label for="date">Tanggal Lahir :</label>
+            <input type="date"><br><br>
+            <label for="kelamin">Jenis Kelamin :</label>
+            <input type="radio" name="kelamin" value="laki-laki" checked="checked">Laki-laki
+            <input type="radio" name="kelamin" value="perempuan">Perempuan<br><br>
+            <label for="telp">Nomor Telepon :</label>
+            <input type="tel" placeholder="Masukkan Nomor Telepon"><br><br>
+            <label for="kota">Asal Kota :</label>
+            <select name="kota" id="">
+                <option value="purwokerto" selected>Purwokerto</option>
+                <option value="purbalingga">Purbalingga</option>
+                <option value="banjarnegara">Banjarnegara</option>
+                <option value="cilacap">Cilacap</option>
+            </select><br><br>
+            <label for="alamat">Alamat</label>
+            <textarea name="alamat" id="" cols="30" rows="10">Silahkan Ketikan Isi Alamat</textarea><br><br>
+            <label for="hobi">Hobi :</label>
+            <input type="checkbox" name="baca" value="Membaca buku">Membaca Buku
+            <input type="checkbox" name="nulis" value="Menulis" checked>Menulis
+            <input type="checkbox" name="mancing" value="Memancing">Memancing <br><br>
+            <label for="makanan">Makanan Favorit :</label>
+            <input type="text" list="makanan">
+            <datalist id="makanan">
+                <option value="sate">Sate</option>
+                <option value="bakso">Bakso</option>
+                <option value="steak">Steak</option>
+                <option value="nasigoreng">Nasi Goreng</option>
+            </datalist><br><br>
+            <div align="right">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </fieldset><br><br>
+        <div align="center">
+            <button>Next Page</button>
+        </div>
+    </form>
+</body>
+
+</html>
